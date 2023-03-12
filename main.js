@@ -52,7 +52,7 @@ const textLoad = () => {
             text.textContent = "Dreamer"
         }, 8000);
         setTimeout(() => {
-            text.textContent = "Developer"
+            text.textContent = "Artist"
         }, 12000);        
 }
 
