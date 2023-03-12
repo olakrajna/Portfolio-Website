@@ -15,6 +15,15 @@ body {
 
 }
 
+
+.logo h1  {
+  font-size: 3rem;
+  color: transparent;
+  -webkit-text-stroke: 1px #7070eb;
+  background: transparent;  
+  
+}
+
 .stars {
   width: 1px;
   height: 1px;
@@ -676,7 +685,7 @@ header {
     padding: 0.8rem 2rem;
     position: sticky;
     top: 0;
-    background: #1a163e;
+    background: #181539;
     z-index: 100;
     transition: all 0.4s ease-in-out;
 
@@ -790,13 +799,13 @@ header.active {
   .menu-link {
     position: relative;
     cursor: pointer;
-    color: var(--textColor);
+    color: #9989dd;
     z-index: 2;
   }
 
   .menu-link::after {
     content: '';
-    background:#5a3dce;
+    background: #5a3dce;
     width: 140%;
     height: 140%;
     border-radius: 2rem;
